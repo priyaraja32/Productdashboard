@@ -1,12 +1,11 @@
 
-
 import { useState } from "react";
 import productsData from "./data/products";
 import Header from "./Components/Header";
 import ProductList from "./Components/ProductList";
 import Footer from "./Components/Footer";
 
-const ProductApp = () => {
+const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const filteredProducts =
@@ -36,7 +35,7 @@ const ProductApp = () => {
   );
 };
 
-export default ProductApp;
+export default App;
 
 
 
